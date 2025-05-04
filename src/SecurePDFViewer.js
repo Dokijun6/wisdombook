@@ -164,6 +164,7 @@ export default function SecurePDFViewer() {
             <div className="relative w-full h-full">
               <iframe 
                 src={pdfData}
+                title="Secure PDF Viewer"
                 className="w-full h-full"
                 style={{ 
                   pointerEvents: 'none' // Disable user interaction with PDF content
